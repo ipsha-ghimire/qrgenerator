@@ -1,0 +1,58 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .container{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    min-width: 100%;
+    height: 100vh;
+    padding-top: 10%;
+  }
+  
+  .contain{
+      padding: 15px;
+  text-align: center;
+  border: 2px solid blue;
+  border-radius: 20px;
+  line-height: 3;
+  }
+  h1{
+    color: blue;
+  }
+  #inputid{
+   padding: 7px 25px;
+   font-size: 16px;
+  border: none;
+  outline: 2px solid blue;
+  border-radius: 10px;
+  
+  }
+  #inputid:focus{
+    color: blue;
+  }
+  #inputid::placeholder{
+    color: blue;
+  }
+  
+  #submitbtn{
+      font-size: 16px;
+      padding: 5px;
+      border-radius: 10px;
+      border: none;
+      background-color:blue;
+      color: antiquewhite;
+      cursor: pointer;
+  }
+  #submitbtn:hover{
+    background: orangered;
+    transition: 0.3s;
+  }
+  #loading{
+    background: url('https://media4.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.webp?cid=ecf05e47mkbuuftr93324v2tezmgiynbow9vhucfqms956cv&rid=giphy.webp&ct=g') no-repeat  center;
+    height: 15vh;
+    display:none;
+    /* z-index: 9999; */
+   
+  }
